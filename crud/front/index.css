@@ -1,0 +1,65 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* --------------------------- */
+
+/* Estilo para el botón Crear Producto y Guardar Producto */
+.btn-success {
+  background-color: #3a6bc1 !important; /* Amarillo dorado */
+  border-color: #3a6bc1!important; /* Borde ligeramente más oscuro */
+  color: #000 !important; /* Texto negro para mejor contraste */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #FFC800 !important; /* Amarillo un poco más oscuro al pasar el cursor */
+  border-color: #D6B300 !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Para asegurar que el estilo se aplica solo a estos botones */
+#myBtn, #btnGuardar {
+  background-color: #6289ca !important;
+  border-color: #6289ca !important;
+  color: #000 !important;
+}
+
+/* Mantener los otros botones con sus colores originales */
+.btn-danger, .btn-primary, .btn-outline-danger {
+  /* Mantiene los estilos por defecto de Bootstrap */
+}
