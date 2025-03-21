@@ -54,8 +54,8 @@
 
 /* Para asegurar que el estilo se aplica solo a estos botones */
 #myBtn, #btnGuardar {
-  background-color: #6289ca !important;
-  border-color: #6289ca !important;
+  background-color: #00ff3c !important;
+  border-color: #59ff00 !important;
   color: #000 !important;
 }
 
