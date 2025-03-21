@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>  
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,24 +7,39 @@
     <link rel="stylesheet" href="index.css">
     <title>Registro productos</title>
     <style>
-        /* Opcional para centrar los botones de acciones mejor aún */
         td .btn {
             min-width: 80px;
+        }
+        /* Colores suaves pastel */
+        tbody tr:nth-child(odd) {
+            background-color: #d4f8e8; /* verde menta pastel */
+        }
+        tbody tr:nth-child(even) {
+            background-color: #fde2e4; /* rosa pastel suave */
+        }
+        /* Encabezado más amigable */
+        thead {
+            background-color: #6c8cd5 !important; /* azul suave */
+            color: white;
+        }
+        /* Opcional: hover con otro color pastel */
+        tbody tr:hover {
+            background-color: #fef6e4 !important; /* amarillo pastel muy claro */
         }
     </style>
 </head>
 <body>
     <div class="container-fluid p-5">
-        <h1 class="text-center">Registro de productos</h1>
+        <h1 class="text-center">Registro De Productos</h1>
     </div>
 
     <div class="container-fluid">
         <div class="d-flex justify-content-center mb-3">
-            <input type="button" id="myBtn" value="Crear Producto" class="btn btn-success p-3 w-75">
+            <input type="button" id="myBtn" value="Crear Producto" class="btn btn-success p-2 w-75">
         </div>
         <div class="table-responsive">
             <table class="table w-75 mx-auto my-4 text-center">
-                <thead class="thead-dark">
+                <thead>
                   <tr>
                     <th scope="col">#</th>
                     <th scope="col">Nombre</th>
